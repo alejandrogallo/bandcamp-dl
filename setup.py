@@ -38,9 +38,9 @@ setup(
     python_requires='>=3.4',
     install_requires=[
         'beautifulsoup4>=4.11',
-        'lxml>=0',
-        'demjson3>=0',
-        'docopt>=0',
+        'lxml>=1',
+        'demjson3>=1',
+        'docopt>=0.6',
         'mutagen>=1.45',
         'requests>=2.2',
         'unicode-slugify>=0.1',

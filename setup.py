@@ -42,7 +42,7 @@ setup(
         'demjson3>=1',
         'docopt>=0.6',
         'mutagen>=1.45',
-        'requests>=2.2',
+        'requests>=1',
         'unicode-slugify>=0.1',
         'mock>=4.0',
         'chardet>=4',

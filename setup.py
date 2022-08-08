@@ -37,15 +37,14 @@ setup(
     packages=find_packages(exclude=['tests']),
     python_requires='>=3.4',
     install_requires=[
-        'beautifulsoup4>=4.11',
-        'lxml>=1',
-        'demjson3>=1',
-        'docopt>=0.6',
-        'mutagen>=1.45',
-        'requests>=1',
-        'unicode-slugify>=0.1',
-        'mock>=4.0',
-        'chardet>=4',
+        'docopt>=0.6.2',
+        'unicode-slugify>=0.1.5',
+        'beautifulsoup4>=4.11.1',
+        'demjson3>=3.0.5',
+        'mutagen>=1.45.1',
+        'requests>=2.27.1',
+        'mock>=4.0.3',
+        'chardet>=4.0.0',
     ],
     extras_require={
         'dev': [
